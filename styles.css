@@ -2,6 +2,28 @@ html, body {
   margin: 0;
   padding: 0;
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 800px;
+  background-color: white;
+}
+
+div.gallery:hover{
+    border: 10px auto;
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+div.desc{
+  padding: 20px;
+  text-align: center;
+  fill: white;
+  }
 
 h1 {
 	font-weight: normal;
